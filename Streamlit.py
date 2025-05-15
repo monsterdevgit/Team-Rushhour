@@ -21,14 +21,11 @@ def predict_eligibility(model, input_data):
 st.set_page_config(page_title="Agrolift Loan Eligibility", page_icon=":bank:", layout="centered")
 
 # App title
-st.title("Agrolift: Loan Eligibility Prediction App  🤖")
+st.title("Agrolift: Loan Eligibility Prediction App")
 
 # Description
 st.markdown("""
-    **Welcome to Agrolift's Loan Eligibility Prediction App!**  
-    This app helps you determine whether applicant's are eligible for a loan based on their information.
-    Fill in the details and click on "Predict Loan Eligibility" to find out!
-    """)
+    **Welcome to Agrolift's Loan Eligibility Prediction App!**""")
 
 # Sidebar for user inputs with better grouping
 st.sidebar.header("Enter Your Details")
@@ -98,20 +95,20 @@ if st.button("Predict Loan Eligibility", use_container_width=True):
         Thank you for applying. We look forward to supporting your farming journey! 🌾
         """)
     else:
-        st.error(f"❌ Unfortunately, you are **not eligible** for the loan at this time. Probability of eligibility: **{probability:.2%}**.")
+        st.error(f"Unfortunately, you are **not eligible** for the loan at this time. Probability of eligibility: **{probability:.2%}**.")
 
         st.markdown("""
-                #### 🚀 How to Improve Your Chances
+                #### How to Improve Your Chances
 
                 We believe in helping farmers like you build capacity and become financially ready. You can take advantage of our support programs to boost your eligibility:
 
-                - 🧑‍🏫 **[Attend a Partner Training Center](https://yourdomain.com/training-centers)**  
+                - **[Attend a Partner Training Center](https://yourdomain.com/training-centers)**  
                 Learn about financial planning, record keeping, and digital tools that improve farm performance.
 
-                - 🤝 **[Join a Farmer Group](https://yourdomain.com/farmer-groups)**  
+                - **[Join a Farmer Group](https://yourdomain.com/farmer-groups)**  
                 Being part of a group increases trust and access to group-based loans and advisory services.
 
-                - 📚 **[Visit a Farmer Education Hub](https://yourdomain.com/education-hubs)**  
+                - **[Visit a Farmer Education Hub](https://yourdomain.com/education-hubs)**  
                 Get personalized mentorship, resources, and insights to strengthen your loan application.
 
                 You're not far from being eligible — take these steps and reapply with confidence. We're here to support your journey! 🌱
