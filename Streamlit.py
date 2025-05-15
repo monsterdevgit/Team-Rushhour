@@ -113,9 +113,3 @@ if st.button("Predict Loan Eligibility", use_container_width=True):
 
                 You're not far from being eligible — take these steps and reapply with confidence. We're here to support your journey! 🌱
                 """)
-
-# Footer
-st.markdown("""
-    ---
-    **Disclaimer:** This tool is for prediction purposes only and should not be used as the sole basis for financial decisions.
-    """)
