@@ -98,7 +98,7 @@ if st.button("Predict Loan Eligibility", use_container_width=True):
         st.error(f"Unfortunately, you are **not eligible** for the loan at this time. Probability of eligibility: **{probability:.2%}**.")
 
         st.markdown("""
-                #### How to Improve Your Chances
+                #### Let’s Strengthen Your Application Together
 
                 We believe in helping farmers like you build capacity and become financially ready. You can take advantage of our support programs to boost your eligibility:
 
