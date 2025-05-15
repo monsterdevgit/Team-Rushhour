@@ -84,7 +84,7 @@ if st.button("Predict Loan Eligibility", use_container_width=True):
     prediction, probability = predict_eligibility(model, input_data)
 
     # Display results with improved visuals
-    if prediction == 1:
+    if prediction == 0:
         st.success(f"🎉 Congratulations! You are **eligible** for the loan with a probability of **{probability:.2%}**.")
         st.markdown("""
         #### Next Steps:
